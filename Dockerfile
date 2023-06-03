@@ -1,4 +1,5 @@
 FROM gcc:13
+EXPOSE 2999
 
 # Install dependencies
 RUN apt update
